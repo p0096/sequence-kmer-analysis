@@ -1,0 +1,6 @@
+ATG	3
+TGC	3
+GCA	1
+CAT	1
+GCG	1
+CGC	1
