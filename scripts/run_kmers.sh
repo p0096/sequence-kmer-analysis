@@ -15,6 +15,6 @@ K=$2
 mkdir -p ../results
 
 # Ejecutar el script Python
-python3 kmer_counter.py "$FASTA_FILE" "$K"
+python3 ./scripts/kmer_counter.py "$FASTA_FILE" "$K"
 
 echo "Análisis de k-mers terminado para k=$K"
