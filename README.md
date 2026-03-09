@@ -26,6 +26,8 @@ The pipeline performs the following steps:
 ---
 
 ## Project structure
+
+```
 sequence-kmer-analysis/
 ├── data/ # Input FASTA files
 │ └── sample.fasta
@@ -35,7 +37,7 @@ sequence-kmer-analysis/
 ├── results/ # Output files
 │ └── kmer_counts.txt
 └── README.md
-
+```
 ---
 
 ## Technologies used
@@ -64,21 +66,21 @@ Results will be saved in:
 
 results/kmer_counts.txt
 
-###Run using the Bash script
+### Run using the Bash script
 
 Make the script executable (first time only):
 
-```chmod +x scripts/run_kmers.sh
+``` chmod +x scripts/run_kmers.sh
 
 ```
 
 Run the pipeline:
 
-```./scripts/run_kmers.sh data/sample.fasta 3
+``` ./scripts/run_kmers.sh data/sample.fasta 3
 
 ```
 
-##Future improvements
+## Future improvements
 
 - Add support for larger datasets
 
@@ -88,6 +90,6 @@ Run the pipeline:
 
 - Add visualization of k-mer frequencies
 
-##Author
+## Author
 
 Paula
