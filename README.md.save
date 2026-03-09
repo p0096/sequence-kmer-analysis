@@ -1,0 +1,25 @@
+Sequence K-mer Analysis
+
+This project implements a simple bioinformatics pipeline to count k-mers in DNA sequences. It is designed to be executed in a Linux environment and demonstrates basic bioinformatics workflow practices.
+
+Project goals
+
+Practice bioinformatics scripting using Python
+
+Learn how to automate analyses with Bash
+
+Use Git and GitHub for version control
+
+Build a small, reusable pipeline for k-mer analysis
+
+Pipeline description
+
+The pipeline performs the following steps:
+
+Reads DNA sequences from a FASTA file
+
+Counts all k-mers of a specified length (k) in the sequences
+
+Writes the counts to a results file (results/kmer_counts.txt)
+
+Allows automation via a Bash script
