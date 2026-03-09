@@ -70,13 +70,15 @@ results/kmer_counts.txt
 
 Make the script executable (first time only):
 
-``` chmod +x scripts/run_kmers.sh
+```
+chmod +x scripts/run_kmers.sh
 
 ```
 
 Run the pipeline:
 
-``` ./scripts/run_kmers.sh data/sample.fasta 3
+```
+./scripts/run_kmers.sh data/sample.fasta 3
 
 ```
 
