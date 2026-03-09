@@ -64,11 +64,12 @@ Results will be saved in:
 
 results/kmer_counts.txt
 
-Run using the Bash script
+###Run using the Bash script
 
 Make the script executable (first time only):
 
 ```chmod +x scripts/run_kmers.sh
+
 ```
 
 Run the pipeline:
@@ -77,16 +78,16 @@ Run the pipeline:
 
 ```
 
-###Future improvements
+##Future improvements
 
-Add support for larger datasets
+- Add support for larger datasets
 
-Include sequence filtering steps
+- Include sequence filtering steps
 
-Process multiple FASTA files
+- Process multiple FASTA files
 
-Add visualization of k-mer frequencies
+- Add visualization of k-mer frequencies
 
-###Author
+##Author
 
 Paula
